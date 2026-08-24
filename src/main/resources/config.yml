@@ -1,0 +1,13 @@
+database:
+  host: "YOUR_DB_HOST"
+  port: 3306
+  name: "YOUR_DATABASE_NAME"
+  username: "YOUR_DATABASE_USER"
+  password: "CHANGE_ME"
+  use-ssl: false
+  pool-size: 4
+  connection-timeout-ms: 10000
+
+# Как часто сохранять время активных игроков. При аварийном завершении
+# сервера может потеряться не больше этого интервала.
+save-interval-seconds: 60

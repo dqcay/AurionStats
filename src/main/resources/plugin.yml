@@ -1,0 +1,6 @@
+name: AurionStats
+version: '1.0.0'
+main: fun.aurion.stats.AurionStatsPlugin
+api-version: '1.21.11'
+description: Stores player online status, joins and playtime in MySQL.
+author: Aurion
